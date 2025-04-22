@@ -3,7 +3,7 @@ package com.sz21c.springbootwebappsample.config.jdbc;
 import org.apache.commons.dbcp.BasicDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-
+import com.sz21c.springbootwebappsample.config.jdbc.MysqlProperties;
 import javax.sql.DataSource;
 
 @EnableConfigurationProperties(MysqlProperties.class)
